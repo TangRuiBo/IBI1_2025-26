@@ -49,12 +49,7 @@ plt.grid(axis="y", linestyle="--", alpha=0.7)
 
 for bar in bars:
     height = bar.get_height()
-    plt.text(
-        bar.get_x() + bar.get_width()/2.,
-        height + (0.1 if height >= 0 else -0.5),  
-        f"{height:.2f}%",
-        ha="center", va="bottom" if height >= 0 else "top"
-    )
+    plt.text(bar.get_x() + bar.get_width()/2.,height + (0.1 if height >= 0 else -0.5),  f"{height:.2f}%",ha="center", va="bottom" if height >= 0 else "top")
 
 plt.tight_layout()  
 plt.show()

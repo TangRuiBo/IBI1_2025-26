@@ -22,13 +22,11 @@ for hr in heart_rates:
     else:
         normal_hr_count += 1
 
-# Print category counts
 print("\nHeart rate category statistics:")
 print(f"Low heart rate (<60 bpm): {low_hr_count} patients")
 print(f"Normal heart rate (60-120 bpm): {normal_hr_count} patients")
 print(f"High heart rate (>120 bpm): {high_hr_count} patients")
 
-# Find the category with the most patients
 category_counts = {"Low": low_hr_count,"Normal": normal_hr_count,"High": high_hr_count}
 largest_category = max(category_counts, key=category_counts.get)
 print(f"\nCategory with the most patients: {largest_category}")
