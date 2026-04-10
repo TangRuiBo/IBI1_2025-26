@@ -39,12 +39,10 @@ def daily_nutrition_summary(food_list):
     else:
         print("\n✅ Nutrient intake is normal")
 
-    return {
-        "calories": total_cal,
-        "protein": total_pro,
-        "carbs": total_car,
-        "fat": total_fat
-    }
+    return { "calories": total_cal,
+             "protein": total_pro,
+             "carbs": total_car,
+             "fat": total_fat    }
 
 
 if __name__ == "__main__":

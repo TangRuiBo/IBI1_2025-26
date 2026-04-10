@@ -21,5 +21,5 @@ def protein_molecular_weight(sequence):
 
 test_seq = "AGPC"
 mw = protein_molecular_weight(test_seq)
-print(f"氨基酸序列：{test_seq}")
-print(f"蛋白质分子量：{mw:.2f} amu")
+print(f"Amino acid sequence：{test_seq}")
+print(f"Protein molecular weight：{mw:.2f} amu")
