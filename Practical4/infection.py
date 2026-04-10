@@ -17,5 +17,5 @@ while a<n:
     print(a) #what is the  today
     c+=1 # Days increase
     a=a+b*a # infected students increase
-print("The numberof infected students in day 10 is more than 91. So it will take 9 days to infect all the students.")
+print("The number of infected students in day 10 is more than 91. So it will take 9 days to infect all the students.")
 #The numberof infected students in day 10 is more than 91. So it will take 9 days to infect all the students.(Count the number of days needed starting from the first day)    
