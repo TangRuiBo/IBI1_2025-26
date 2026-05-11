@@ -9,6 +9,7 @@ Gene_level=[11.6,12.4,15.1,8.2,5.3,10.7]
 plt.bar(Gene_name,Gene_level)
 plt.title("Gene expression")
 plt.ylabel("Expression level")
+plt.xlabel("Gene name")
 plt.show()
 
 a= "MYC"  #a can be any other gene you are interested in
