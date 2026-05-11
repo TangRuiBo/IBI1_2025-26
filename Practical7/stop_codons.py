@@ -21,7 +21,7 @@ def process_fasta():
                     if found_stops:
                         new_header = f">{gene_name} {' '.join(found_stops)}"
                         results.append((new_header, sequence))
-
+     
                 gene_name = line.split()[0][1:]
                 sequence = ""
             else:

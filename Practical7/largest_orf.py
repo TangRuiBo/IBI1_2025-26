@@ -16,7 +16,7 @@ def validate_rna_sequence(RNA_seq):
             )
     
     print(" RNAseq verification passed: contains only A/U/G/C")
-
+      
 def find_largest_orf(RNA_seq):
     """Find ORF"""
     start_codon = 'AUG'
