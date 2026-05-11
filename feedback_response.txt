@@ -1,0 +1,3 @@
+I have revised the issues mentioned in the feedback:I have renamed all files by replacing spaces with underscores as required. I have also corrected the X-axis labels in the plots and fixed the errors in the formulas.
+
+The practical tasks in the IBI course are quite challenging. Even though I have self-learned some basic coding knowledge, I still relied on collaborating with AI to finish the work, and this is an area I need to improve on.
