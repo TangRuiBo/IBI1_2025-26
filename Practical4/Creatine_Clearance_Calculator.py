@@ -53,7 +53,7 @@ def calculate_creatine_clearance():
     else:
         # Calculate Creatine Clearance using Cockcroft-Gault formula
         # Base calculation (male)
-        crcl_base = ((140 - age) * weight * 1.23) / cr
+        crcl_base = ((140 - age) * weight ) / (cr*72)
         # Adjust for female (multiply by 0.85)
         if gender == "female":
             crcl = crcl_base * 0.85
